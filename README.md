@@ -1,14 +1,14 @@
-## search for a website with a different proxy each time
+## Search for a website with a different proxy each time.
 This script automates the process of searching for a website via keyword
 and the Bing search engine.... page after page
 <br><br>
-Pass a complete URL and at least 1 keyword as command line arguments:
+Pass a complete URL and it was least 1 keyword as command line arguments:
 <br>
 <code>python proxy_crawler.py -u https://www.example.com -k keyword</code>
 <br><br>
 <code>python proxy_crawler.py -u https://www.whatsmyip.org -k "my ip"</code>
 <br><br>
-If on a Linux system, proxy_crawler can run headless. Give the -x option (requires XVFB):
+If you have a Linux system, proxy_crawler can run headless. Give the -x option (requires XVFB):
 <br>
 <code>python proxy_crawler.py -u https://www.whatsmyip.org -k "my ip" -x</code>
 <br><br>
